@@ -48,12 +48,68 @@
 .profile{
     border-radius: 50%;
 }
+/* ============================================================== */
+.header-1{
+    width:1000px;
+    height: 300px;
+    position: absolute;
+    left:450px;
+    display: flex;
+    gap:50px;
+    
+}
+.logo{
+    padding: 30px;
+}
+.logo img{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+.follow{
+    background-color: rgb(48, 100, 182);
+    padding:5px 25px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+}
+.message{
+    background-color: rgb(243, 235, 235);
+    padding:5px 20px;
+    border:none;
+    border-radius: 5px;
+    color:rgb(99, 95, 95);
+}
+.similar{
+    border: none;
+    padding:3px;
+    border-radius: 5px;
+}
+.dots{
+    border: none;
+    padding:3px;
+    border-radius: 5px;
+}
+.header1-heading p{
+    font-size:24px;
+}
+.header1-content{
+    
+}
+.header1-buttons{
+    display: flex;
+    gap:5px;
+}
+.box{
+    /* display: flex; */
+}
+/* ================================================================ */
 .header-2{
     width:800px;
     display: flex;
     justify-content: space-between;
     position:absolute;
     left:400px;
+    top:450px;
 }
 .colors{
     height: 100px;
@@ -63,4 +119,6 @@
 .color p{
     text-align: center;
 }
+/* ============================================================== */
+
 
